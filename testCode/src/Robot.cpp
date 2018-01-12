@@ -46,6 +46,20 @@ class Robot : public IterativeRobot { //This is our robot...in code form...just 
             joy = new Joystick(0);  //Drive Joystick
             drive = NULL;           //We don't want our robot moving YET
         }
+	
+	
+	/*
+	If you want to write any custom methods, Place them in between these two sections (aka: HERE)
+	
+	
+	Ex: 
+	int autoMode1(){
+		*blah blah blah*
+		return 0;
+	}
+	*/
+	
+
         void RobotInit() {
             // Initialize the Robot and all functions that need to be called.
         	    // Logan Translation: Robot needs to wake the fuck up!
