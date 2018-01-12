@@ -34,9 +34,10 @@ class Robot : public IterativeRobot { //This is our robot...in code form...just 
      /*3*/  frontRight(2),  //port 2
      /*4*/  backRight(3),   //port 3
      /*5*/  clock(),
-     /*6*/  inputA(0), //HOPEFULLY DIO port 0
-     /*7*/  inputB(1), //HOPEFULLY DIO port 1
-     /*8*/  inputC(2), //HOPEFULLY DIO port 2
+	               //DIO Ports:
+     /*6*/  inputA(0),     //port 0
+     /*7*/  inputB(1),     //port 1
+     /*8*/  inputC(2),     //port 2
      /*9*/  lights(3)
         {
             // You should only initialize value here. Try not to have any other
